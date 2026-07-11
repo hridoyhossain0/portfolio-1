@@ -1,3 +1,262 @@
-body {
-    background-color: pink;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.defaultFontSize {
+    font-size: 1.3rem;
+}
+
+
+/* header section */
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: whitesmoke;
+
+}
+
+
+.headerParentMain {
+    
+    max-width: 85%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    
+}
+
+.headerParent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header nav{
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 1rem;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    margin-left: 1rem;
+    /* color: whitesmoke; */
+    
+
+}
+
+
+.cmnButton{
+    font-size: 1.5rem;
+    padding: 0.8rem 1.7rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(199, 143, 40);
+    color: white;
+    font-weight: bold;
+}
+
+
+/* header section  end */
+
+
+
+/* hero section */
+
+
+.heroSectionParent{
+    margin-top: 5rem;
+    background-color: #c4eede;
+}
+
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+.heroDataContainer div {
+    margin-top: 1rem;
+    
+
+}
+
+.heroDataContainer h2 {
+    font-size: 2.8rem;
+    padding-bottom: 1.2rem;
+    font-weight: 500;
+    
+}
+
+.heroDataContainer h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 1.2rem;
+}
+
+.heroDataContainer p {
+    font-size: 1.3rem;
+}
+
+
+/* end hero section */
+
+/* about section */
+
+.aboutSection {
+    max-width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    background-color: #c4eede;
+}
+
+.aboutSectionChild {
+    max-width: 95%;
+    margin: 0 auto;
+
+    padding: 4.5rem 0;
+    
+    
+}
+
+.aboutSectionDescription h2 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.aboutSectionDescription p {
+    font-size: 1.3rem;
+}
+
+.aboutSectiondata {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3.5rem;
+}
+
+.aboutSectiondata div {
+    background-color: #36ce94;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.aboutSectiondata p {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+/* end about section */
+
+
+/* what i do section */
+
+
+
+.whatIDoSection {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+
+.whatIDoInfo h2, p {
+    text-align: center;
+}
+
+
+.whatIDoCard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.2rem;
+}
+
+.whatIDoCard div {
+    border: 1.9px solid #36ce94;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 6px;
+}
+
+.whatIDoCard div p,h2 {
+    text-align: left;
+    padding-top: 10px;
+}
+
+/* end what i do section */
+
+
+/* amazing section */
+
+
+
+
+/* end amazing section */
+
+
+/* footer */
+
+
+footer {
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: #36ce94;
+    border-radius: 10px;
+    border: none;
+}
+
+.footerParent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 95%;
+    margin: 0 auto;
+    height: 27rem;
+
+
+}
+
+.footerLeftChild  p {
+    text-align: left;
+}
+
+.footerLeftChild  h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footerLeftChild img {
+    margin: 10px 0;
+    padding-right: 8px;
+}
+
+.footerLeftChild div img {
+  
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: #fff;
+    color: #fd6e0a;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        
+    }

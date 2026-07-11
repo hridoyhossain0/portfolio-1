@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <header>
-        <p>Ronaldo</p>
-        <nav>
-            <ul>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </nav>
-        <button class="cmnButton">Hire me</button>
+        <div class="headerParentMain">
+
+            <div class="headerParent">
+
+                <p>Ronaldo</p>
+                <nav>
+                    <ul>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                
+                    <button class="cmnButton">Hire me</button>
+                </nav>
+
+            </div>
+
+        </div>
+
+        
+        
+
     </header> 
     
     
@@ -28,8 +42,8 @@
                
                 <div class="heroDataContainer">
                     <h2>Hi, I am</h2>
-                    <h1>RONALDO</h1>
-                    <p>Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
+                    <h1>HRIDOY</h1>
+                    <p class="defaultFontSize">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
 
                     <div>
                         <button class="cmnButton">Download CV</button>
@@ -49,35 +63,34 @@
 
         <section class="aboutSection">
             <div class="aboutSectionChild">
-                <div>
+                <div class="aboutSectionDescription">
                     <h2>About me</h2>
-                    <p>I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
+                    <p class="defaultFontSize">I, m a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional resulfs while working with me. Delivering work within time and budget which meets clients requirements in our mata.</p>
                 </div>
-                <div>
+
+
+                <div class="aboutSectiondata">
+                
                     <div>
-                        <div>
-                            <p>Name:</p>
-                            <h2>Ronaldo</h2>
-                        </div>
+                        <p>Name:</p>
+                        <h2>Ronaldo</h2>
                     </div>
+                
                     <div>
-                        <div>
-                            <p>Email:</p>
-                            <h2>info@gmail.com</h2>
-                        </div>
+                        <p>Email:</p>
+                        <h2>info@gmail.com</h2>
                     </div>
+                
                     <div>
-                        <div>
-                            <p>Date of Birth:</p>
-                            <h2>01-01-1990</h2>
-                        </div>
+                        <p>Date of Birth:</p>
+                        <h2>01-01-1990</h2>
                     </div>
+                
                     <div>
-                        <div>
-                            <p>Phone:</p>
-                            <h2>14234234234234</h2>
-                        </div>
+                        <p>Phone:</p>
+                        <h2>14234234234234</h2>
                     </div>
+                
                 </div>
             </div>
         </section>
@@ -89,28 +102,28 @@
         <section class="whatIDoSection">
             <div class="whatIDoInfo">
                 <h2>What I do</h2>
-                <p>I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+                <p class="defaultFontSize">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
             </div>
             <div class="whatIDoCard">
                 <div>
                     <img src="./photos/icons/js.png" alt="js.png">
                     <h2>Vanilla Javascript</h2>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="defaultFontSize">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div>
                     <img src="./photos/icons/react.png" alt="react.png">
                     <h2>Angular, React & Vue</h2>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="defaultFontSize">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div>
                     <img src="./photos/icons/nodejs.png" alt="node.png">
                     <h2>Node.js</h2>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="defaultFontSize">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
                 <div>
                     <img src="./photos/icons/python-5 1.png" alt="python.png">
                     <h2>Python & Django</h2>
-                    <p>List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
+                    <p class="defaultFontSize">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
                 </div>
             </div>
         </section>
@@ -135,10 +148,11 @@
     <footer>
         <div class="footerParent">
             <div class="footerLeftChild">
-                <div>
+                <!-- <div> -->
                     <h2>Lets Connect</h2>
-                    <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
-                    <img src="./photos/icons/facebook.png" alt=""><img src="./photos/icons/insta.png" alt=""><img src="./photos/icons/twitter.png" alt=""></div>
+                    <p class="defaultFontSize">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                    <img src="./photos/icons/facebook.png" alt=""><img src="./photos/icons/insta.png" alt=""><img src="./photos/icons/twitter.png" alt="">
+                <!-- </div> -->
                 <div><img src="./photos/icons/facebook.png" alt=""><img src="./photos/icons/insta.png" alt=""><img src="./photos/icons/twitter.png" alt=""></div>
             </div>
             <div class="footerParentChild">
